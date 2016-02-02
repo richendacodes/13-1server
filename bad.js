@@ -1,9 +1,9 @@
 var http = require('http');
 
-var PORT = 8080;
+var PORT = 7500;
 
 var handleRequest = function (req, res) {
-  res.end("It worked! You hit: " + req.url);
+  res.end("You are not a nice person.");
 }
 
 var server = http.createServer(handleRequest);
